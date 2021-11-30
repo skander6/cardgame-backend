@@ -21,7 +21,7 @@ public class GameController {
     @GetMapping(value = "getCards")
     public Hand getHand() {
 
-        return new Hand();
+        return gameService.getHand();
     }
 
 
